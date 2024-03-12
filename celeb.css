@@ -55,3 +55,22 @@ h1 {
     width: 100%;
     height: 315px;
 }
+
+@media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 10px; /* Further reduce margin for smaller devices */
+    }
+
+    .celebration-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-dance{
+        margin: 10px 0;
+    }
+
+    .celebration-video {
+        margin: 20px auto;
+    }
+}
